@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "XfvRpp+XYSBRX5BX4X+HkddEzg3+g1s79uY6+sf5xcKhFteexW2GVxn94TNdII/ZFebGvZhCRL8WDpQqnwnIHQ==",
+  "success": true,
+  "projectFilePath": "/Users/ahmadalmnna/GodoProjects/HeistMiesters/Heist Miesters.csproj",
+  "expectedPackageFiles": [
+    "/Users/ahmadalmnna/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/Users/ahmadalmnna/.nuget/packages/microsoft.netframework.referenceassemblies.net472/1.0.0/microsoft.netframework.referenceassemblies.net472.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
