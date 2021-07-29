@@ -6,6 +6,7 @@
 [ext_resource path="res://Scenes/Torch.tscn" type="PackedScene" id=4]
 
 [node name="Player" instance=ExtResource( 1 )]
+collision_mask = 2
 script = ExtResource( 3 )
 
 [node name="Sprite" parent="." index="0"]
@@ -16,4 +17,8 @@ current = true
 
 [node name="Torch" parent="." index="3" instance=ExtResource( 4 )]
 position = Vector2( 12.9868, -0.547791 )
+enabled = false
 offset = Vector2( 320, 0 )
+
+[node name="Light2D" type="Light2D" parent="." index="5"]
+texture = ExtResource( 2 )

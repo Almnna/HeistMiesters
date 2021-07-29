@@ -1,2 +1,2 @@
-﻿59718
+﻿57240
 /Users/ahmadalmnna/Desktop/Godot_mono.app/Contents/MacOS/Godot
