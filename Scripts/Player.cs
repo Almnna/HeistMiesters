@@ -4,13 +4,50 @@ using System;
 public class Player : Character
 {
     private Vector2 motion = new Vector2(0, 0);
-    private InputEventScreenTouch t = new InputEventScreenTouch();//not don yet
+    private InputEventScreenTouch t = new InputEventScreenTouch();//not done yet
     private Light2D torch = new Light2D();
+    private bool is_torch_active;
 
+    public override void _Ready()
+    {
+        AddToGroup("player");
+    }
+    public void Torch(){
+        if(Input.IsActionPressed("torch")){
+            torch = GetNode<Light2D>("Torch");
+            if(torch.Enabled){
+                torch.Enabled = false;
+                is_torch_active = false;
+                GetTree().CallGroup("gamestate", "changeTorchSkin", is_torch_active);
+            }else{
+                torch.Enabled = true;
+                is_torch_active = true;
+                GetTree().CallGroup("gamestate", "changeTorchSkin", is_torch_active);
+            }
+        }
+    }
+
+    public void Torch2(){
+        if(Input.IsActionPressed("torch2"))
+        {
+            Input.ActionRelease("torch2");
+            torch = GetNode<Light2D>("Torch");
+            if(torch.Enabled){
+                torch.Enabled = false;
+                is_torch_active = false;
+                GetTree().CallGroup("gamestate", "changeTorchSkin", is_torch_active);
+            }else{
+                torch.Enabled = true;
+                is_torch_active = true;
+                GetTree().CallGroup("gamestate", "changeTorchSkin", is_torch_active);
+            }
+        }
+    }
     public override void _Process(float delta)
     {
         UpdateMotion(delta);
         MoveAndSlide(motion);
+        Torch2();
     }
 
     public override void _Input(InputEvent @event)
@@ -18,16 +55,6 @@ public class Player : Character
         Torch(); 
     }
 
-    private void Torch(){
-        if(Input.IsActionJustPressed("tourch")){
-            torch = GetNode<Light2D>("Torch");
-            if(torch.Enabled){
-                torch.Enabled = false;
-            }else{
-                torch.Enabled = true;
-            }
-        }
-    }
 
     public void UpdateMotion(float delta)
     {

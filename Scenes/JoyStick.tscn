@@ -29,21 +29,18 @@ public class JoyStick : Control
 "
 
 [node name="JoyStick" type="Control"]
-anchor_right = 1.0
-anchor_bottom = 1.0
 script = SubResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Frame" type="Sprite" parent="."]
-position = Vector2( 729.865, 415.001 )
+position = Vector2( 1067.83, 456.711 )
 scale = Vector2( 0.5, 0.5 )
 texture = ExtResource( 1 )
 
 [node name="Button" type="TouchScreenButton" parent="."]
-position = Vector2( 661.82, 345.704 )
+position = Vector2( 995.73, 384.404 )
 scale = Vector2( 0.5, 0.5 )
 normal = ExtResource( 2 )
-pressed = ExtResource( 2 )
 passby_press = true
