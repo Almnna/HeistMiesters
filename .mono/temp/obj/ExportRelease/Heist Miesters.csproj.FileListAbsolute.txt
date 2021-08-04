@@ -1,8 +1,8 @@
 /Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/bin/ExportRelease/Heist Miesters.dll
 /Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/bin/ExportRelease/Heist Miesters.pdb
-/Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/obj/ExportRelease/Heist Miesters.csprojAssemblyReference.cache
 /Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/obj/ExportRelease/Heist Miesters.AssemblyInfoInputs.cache
 /Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/obj/ExportRelease/Heist Miesters.AssemblyInfo.cs
 /Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/obj/ExportRelease/Heist Miesters.csproj.CoreCompileInputs.cache
 /Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/obj/ExportRelease/Heist Miesters.dll
 /Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/obj/ExportRelease/Heist Miesters.pdb
+/Users/ahmadalmnna/GodoProjects/HeistMiesters/.mono/temp/obj/ExportRelease/Heist Miesters.csproj.AssemblyReference.cache
